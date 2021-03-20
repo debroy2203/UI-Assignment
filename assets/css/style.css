@@ -1,0 +1,241 @@
+/* 
+    Assignement - Landing Page of Bone Marrow Transplant
+    Date Created - 19/03/2021
+    Developed by - Debdatta Roy
+*/
+
+/* STYLES */
+section{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.logo-div{
+    margin-top: 40px;
+}
+.logo{
+    height: 70px;
+    object-fit: contain;
+    max-width: 200px;
+}
+.banner-heading{
+    margin-top: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+.banner-subheading{
+    color: #ffffff;
+    opacity: 0.9;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.text-center{
+    text-align: center;
+}
+.box{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 30px;
+}
+.box-head .title{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #222;
+    font-weight: bold;
+}
+.form-row{
+    margin-top: 10px;
+}
+.captcha{
+    border: 1px solid #ced4da !important;
+    padding: 20px;
+}
+label{
+    font-size: 12px;
+}
+.form-control{
+    font-size: 12px;
+    border-radius: 0px !important;
+    height: 35px;
+}
+.form-control::placeholder{
+    color: #7d7d7e;
+}
+.btn-primary{
+    background-color: #ef5350;
+    border-color: #ef5350;
+    border-radius: 0px !important;
+    font-size: 13px;
+    padding: 15px !important;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.section-img{
+    height: 100%;
+    /* object-fit: contain; */
+}
+.section-title{
+    background-image: linear-gradient(#2196f3, #1565c0);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px;
+}
+.section-title h6{
+    color: #ffffff;
+}
+.section-content{
+    margin: 40px;
+}
+.section-content .text{
+    color: #848484;
+}
+.section-heading{
+    color: #00bfa5;
+    font-weight: bold;
+}
+.details{
+    background-color: #f7f8ff;
+    padding: 30px;
+}
+.small-img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.small-img img{
+    height: 150px;
+    object-fit: contain;
+}
+.details .title{
+    color: #3851b5;
+}
+.details .text{
+    color: #848484;
+    font-size: 14px;
+}
+.btn-primary-gradient{
+    background-image: linear-gradient(#2196f3, #1565c0);
+    border-radius: 8px !important;
+    font-size: 13px;
+    padding: 15px !important;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+}
+.details-list .text{
+    color: #848484;
+    font-size: 14px;
+}
+.card{
+    border: 1px solid #e8e9ec;
+    height: 150px;
+    padding: 20px;
+    margin: 10px 5px;
+}
+.card .text{
+    color: #848484;
+    font-size: 14px;
+}
+.card .icon{
+    height: 50px;
+    object-fit: contain;
+}
+.card:hover{
+    box-shadow: 5px 5px #e8e9ec;
+}
+.accordion-header{
+    background-color: transparent !important;
+}
+.accordion-button{
+    color: #3851b5;
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    border: none !important;
+}
+.accordion-body{
+    color: #848484;
+    font-size: 14px;
+}
+.carousel-card{
+    height: 200px;
+    border: 1px solid #e8e9ec;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+}
+.avatar{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #e8e9ec;
+}
+.carousel-card .text{
+    color: #848484;
+    font-size: 14px;
+    font-style: italic;
+}
+.footer{
+    background-color: #222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.social-icons{
+    height: 20px;
+    object-fit: contain;
+    margin-right: 2px;
+}
+.fa-angle-up{
+    color: #ffffff;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+}
+.footer-col{
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #929292;
+}
+.footer-copyright{
+    padding-top: 10px;
+    color: #929292;
+}
+/* responsive styles */
+@media screen and (max-width: 3000px) and  (min-width: 1201px){
+    .header-slider{
+        height: 80vh;
+        width: 100%;
+    }
+    .container{
+        max-width: 1100px;
+    }
+}
+@media screen and (max-width: 1200px) and  (min-width: 901px){
+    .header-slider{
+        height: 50vh;
+        width: 100%;
+    }
+    .container{
+        max-width: 840px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header-slider{
+        height: 40vh;
+        width: 100%;
+    }
+    .container{
+        max-width: 650px;
+    }
+}
+@media screen and (max-width: 900px) and  (min-width: 701px){
+    .header-slider{
+        height: 40vh;
+        width: 100%;
+    }
+    .container{
+        max-width: 650px;
+    }
+}
